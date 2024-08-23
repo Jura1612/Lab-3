@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(Imagenes/2207.i126.004.S.m005.c13.sky.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fa-solid {
+    color: blue;
+    font-size: 50px;
+padding: 10px;}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    width: 80vw;
+    height: 80vh;
+}
+
+/* .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    background: white;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 90px;
+    padding-bottom: 60px;
+} */
+
+.formulario h1 {
+    text-align: center;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.imputshere {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form .username {
+    font-weight: 200;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 20px 0;
+    width: 250px;
+}
+
+.username input {
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-160%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+input::placeholder {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.recordar {
+    margin: 20px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.recordar:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: blue;
+    color: ghostwhite;
+}
+
+button span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+button:hover span {
+    color: black;
+}
+
+button::before,
+button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+button::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+button:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.Bottomcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.gmail {
+    margin: 20px 0 20px 0;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 22px;
+
+}
+
+.der {
+    width: 60%;
+    height: 80vh;
+    background-image: url(Imagenes/mountains-6839521_1280.jpg);
+    background-size: cover;
+}
+
+.izq {
+    width: 40%;
+    height: 80vh;
+    padding: 80px 50px 50px 50px;
+}
+
+.logo{
+    color: #adadad;
+    font-size: 22px;
+}
